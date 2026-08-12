@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tripadvisor Home</title>
+    <link rel="icon" href="tripadvisor.png">
+</head>
+
+<body>
+    <main>
+        <div class="whole-container">
+
+            <!-- navbar -->
+
+            <div class="navbar">
+
+                <div class="title">
+                    <img class="title__icon" src="./images/tripadvisor.png" alt="Tripadvisor logo">
+                    <h1 class="title__trip">Tripadvisor</h1>
+                </div>
+
+                <div class="headings">
+                    <h4>Discover</h4>
+                    <h4>Trips</h4>
+                    <h4>Review</h4>
+                    <h4>Forums</h4>
+                </div>
+
+                <div class="signin">
+
+                    <p class="signin__inr">
+                        <i class="fa-solid fa-globe"></i>
+                        | INR
+                    </p>
+
+                    <button class="signin__button">Sign in</button>
+
+                </div>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"
+                    aria-controls="mobileMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+            <!-- mobile nav drawer -->
+
+            <div class="mobile-menu" id="mobileMenu">
+                <div class="mobile-menu__header">
+                    <div class="title">
+                        <img class="title__icon" src="./images/tripadvisor.png" alt="Tripadvisor logo">
+                        <h1 class="title__trip">Tripadvisor</h1>
+                    </div>
+                    <button class="menu-close" id="menuClose" aria-label="Close menu">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="mobile-menu__links">
+                    <h4>Discover</h4>
+                    <h4>Trips</h4>
+                    <h4>Review</h4>
+                    <h4>Forums</h4>
+                </div>
+                <div class="mobile-menu__footer">
+                    <p class="signin__inr"><i class="fa-solid fa-globe"></i> | INR</p>
+                    <button class="signin__button">Sign in</button>
+                </div>
+            </div>
+
+            <div class="menu-backdrop" id="menuBackdrop"></div>
+
+            <!-- Big heading -->
+
+            <div class="heading">
+                <h1 class="heading__main">Explore more places to rent</h1>
+            </div>
+
+            <!-- navbar2 -->
+
+            <div class="navbar2">
+
+                <p><i class="fa-solid fa-house" style="color: #00060f;"></i> Search All</p>
+                <p><i class="fa-solid fa-bed" style="color: #00040a;"></i> Hotels</p>
+                <p><i class="fa-solid fa-list-check" style="color: #00040a;"></i> Things to do</p>
+                <p><i class="fa-solid fa-utensils" style="color: #00060f;"></i> Restaurants</p>
+                <p><i class="fa-solid fa-plane-departure" style="color: #01060e;"></i> Flights</p>
+                <p><i class="fa-solid fa-building" style="color: #00040a;"></i> Holiday homes</p>
+
+            </div>
+
+            <!-- searchbar -->
+
+            <div class="searchbar">
+
+                <div class="searchbar1">
+
+                    <i class="fa-solid fa-magnifying-glass" style="color: #00060f;"></i>
+                    <input placeholder="Places to go, things to do, hotels...">
+                    <button>Search</button>
+
+                </div>
+
+            </div>
+
+            <!-- center Big image -->
+
+            <div class="image">
+                <img class="image__img" src="./images/page.png" alt="Featured travel destination">
+            </div>
+
+            <!-- container1 -->
+
+            <div class="container1">
+
+                <h1 class="container1__title">Go on an award-winning adventure</h1>
+                <p class="container1__subtitle">2024's Travellers' Choice Awards Best of the Best Things To Do</p>
+
+                <div class="container1__cards">
+
+                    <div class="place__card">
+                        <img src="./images/place4.jpg" alt="Travel destination photo" loading="lazy">
+                        <h1>Top Experiences</h1>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="./images/place.jpg" alt="Travel destination photo" loading="lazy">
+                        <h1>Top Attractions</h1>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="./images/place1.jpg" alt="Travel destination photo" loading="lazy">
+                        <h1>Bucket List</h1>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="./images/place2.jpg" alt="Travel destination photo" loading="lazy">
+                        <h1>Food & Drink</h1>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="./images/place.jpg" alt="Travel destination photo" loading="lazy">
+                        <h1>Food & Drink</h1>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="./images/place4.jpg" alt="Travel destination photo" loading="lazy">
+                        <h1>Food & Drink</h1>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- conatiner2 -->
+
+
+            <div class="container2">
+
+                <h1 class="container2__title">Ways to tour Coimbatore</h1>
+                <p class="container2__subtitle">Book these experiences for a close-up look at Coimbatore.</p>
+
+                <div class="container2__cards">
+
+                    <div class="place__card">
+                        <img src="./images/cbe1.jpg" alt="Travel destination photo" loading="lazy">
+                        <h3>Isha yoga in coimbatore</h3>
+                        <p>🟢🟢🟢🟢🟢 5</p>
+                        <p>from ₹37,577 per group</p>
+
+                        <div class="heart">
+                            <i class="fa-solid fa-heart fa-2xl" style="color: #f52e2e;"></i>
+                        </div>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="./images/cbe2.jpg" alt="Travel destination photo" loading="lazy">
+                        <h3>Hill Station Tour from Coimbatore to Valparai</h3>
+                        <p>🟢🟢🟢🟢 4</p>
+                        <p>from ₹5,637 per adult</p>
+
+                        <div class="heart">
+                            <i class="fa-solid fa-heart fa-2xl" style="color: #f52e2e;"></i>
+                        </div>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="./images/cbe3.jpg" alt="Travel destination photo" loading="lazy">
+                        <h3>Coimbatore to Ooty-Hotel+Sightseeing</h3>
+                        <p>🟢🟢🟢 3</p>
+                        <p>from ₹3,442 per adult</p>
+
+                        <div class="heart">
+                            <i class="fa-solid fa-heart fa-2xl" style="color: #f52e2e;"></i>
+                        </div>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="./images/cbe4.jpg" alt="Travel destination photo" loading="lazy">
+                        <h3>Explore Palani Murugan Temple From Coimbatore</h3>
+                        <p>🟢🟢 2</p>
+                        <p>from ₹2,839 per adult</p>
+
+                        <div class="heart">
+                            <i class="fa-solid fa-heart fa-2xl" style="color: #f52e2e;"></i>
+                        </div>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="./images/cbe3.jpg" alt="Travel destination photo" loading="lazy">
+                        <h3>Explore Palani Murugan Temple From Coimbatore</h3>
+                        <p>🟢🟢 2</p>
+                        <p>from ₹2,839 per adult</p>
+
+                        <div class="heart">
+                            <i class="fa-solid fa-heart fa-2xl" style="color: #f52e2e;"></i>
+                        </div>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="./images/cbe2.jpg" alt="Travel destination photo" loading="lazy">
+                        <h3>Explore Palani Murugan Temple From Coimbatore</h3>
+                        <p>🟢🟢 2</p>
+                        <p>from ₹2,839 per adult</p>
+
+                        <div class="heart">
+                            <i class="fa-solid fa-heart fa-2xl" style="color: #f52e2e;"></i>
+                        </div>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="./images/cbe1.jpg" alt="Travel destination photo" loading="lazy">
+                        <h3>Explore Palani Murugan Temple From Coimbatore</h3>
+                        <p>🟢🟢 2</p>
+                        <p>from ₹2,839 per adult</p>
+
+                        <div class="heart">
+                            <i class="fa-solid fa-heart fa-2xl" style="color: #f52e2e;"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- container3 -->
+
+
+                <div class="container3">
+
+                    <h1 class="container3__title">Explore beautiful Bali</h1>
+                    <p class="container3__subtitle">Check out waterfalls, temples, and Balinese food.</p>
+
+                    <div class="container3__cards">
+
+                        <div class="place__card">
+                            <img src="./images/bali1.jpg" alt="Travel destination photo" loading="lazy">
+                            <h3>ATV Quad Bike Bali with Waterfall Gorilla Cave and Lunch</h3>
+                            <p>🟢🟢🟢 3</p>
+                            <p>from ₹5,637 per adult</p>
+                        </div>
+
+                        <div class="place__card">
+                            <img src="./images/bali2.jpg" alt="Travel destination photo" loading="lazy">
+                            <h3>Bali Snorkeling Tour at Blue Lagoon Beach - All-Inclusive</h3>
+                            <p>🟢🟢🟢 3</p>
+                            <p>from ₹3,442 per adult</p>
+                        </div>
+
+                        <div class="place__card">
+                            <img src="./images/bali3.jpg" alt="Travel destination photo" loading="lazy">
+                            <h3>Best of Ubud 1-Day Private Tour</h3>
+                            <p>🟢🟢🟢 3</p>
+                            <p>from ₹2,839 per adult</p>
+                        </div>
+
+                        <div class="place__card">
+                            <img src="./images/bali4.jpg" alt="Travel destination photo" loading="lazy">
+                            <h3>Mount Batur Sunrise Hiking with Natural Hot Spring Option</h3>
+                            <p>🟢🟢🟢 3</p>
+                            <p>from ₹3,442 per adult</p>
+                        </div>
+
+                        <div class="place__card">
+                            <img src="./images/bali2.jpg" alt="Travel destination photo" loading="lazy">
+                            <h3>Mount Batur Sunrise Hiking with Natural Hot Spring Option</h3>
+                            <p>🟢🟢🟢 3</p>
+                            <p>from ₹3,442 per adult</p>
+                        </div>
+
+                        <div class="place__card">
+                            <img src="./images/bali3.jpg" alt="Travel destination photo" loading="lazy">
+                            <h3>Mount Batur Sunrise Hiking with Natural Hot Spring Option</h3>
+                            <p>🟢🟢🟢 3</p>
+                            <p>from ₹3,442 per adult</p>
+                        </div>
+
+                        <div class="place__card">
+                            <img src="./images/bali2.jpg" alt="Travel destination photo" loading="lazy">
+                            <h3>Mount Batur Sunrise Hiking with Natural Hot Spring Option</h3>
+                            <p>🟢🟢🟢 3</p>
+                            <p>from ₹3,442 per adult</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Midcard -->
+
+                <div class="mid-card">
+
+                    <div class="mid-card__img">
+                        <img src="./images/mid.jpg" alt="Travel destination photo" loading="lazy">
+                    </div>
+
+                    <div class="mid-card__texts">
+                        <h2>See something you love? Click the heart to save it</h2>
+                        <p>And see all your saved travel ideas on your map</p>
+                    </div>
+
+                    <div class="mid-card__button">
+                        <button>
+                            <h4>Get Started</h4>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- whole-container Ended -->
+
+
+
+        <!-- more -->
+
+        <div class="more">
+
+            <div class="more__title">
+                <h1>More to explore!</h1>
+            </div>
+
+            <div class="more-box">
+
+                <div class="more-box__card">
+                    <img src="./images/more1.jpg" alt="Travel destination photo" loading="lazy">
+                    <p>10 incredible places to visit in August around the world</p>
+
+                </div>
+
+                <div class="more-box__card">
+                    <img src="./images/more2.jpg" alt="Travel destination photo" loading="lazy">
+                    <p>10 incredible places to visit in August around the world</p>
+
+                </div>
+
+                <div class="more-box__card">
+                    <img src="./images/more3.jpg" alt="Travel destination photo" loading="lazy">
+                    <p>10 incredible places to visit in August around the world</p>
+
+                </div>
+
+                <div class="more-box__card">
+                    <img src="./images/more4.jpg" alt="Travel destination photo" loading="lazy">
+                    <p>10 incredible places to visit in August around the world</p>
+
+                </div>
+
+                <div class="more-box__card">
+                    <img src="./images/more5.jpg" alt="Travel destination photo" loading="lazy">
+                    <p>10 incredible places to visit in August around the world</p>
+
+                </div>
+
+                <div class="more-box__card">
+                    <img src="./images/more6.jpg" alt="Travel destination photo" loading="lazy">
+                    <p>10 incredible places to visit in August around the world</p>
+
+                </div>
+
+                <div class="more-box__card">
+                    <img src="./images/more7.jpg" alt="Travel destination photo" loading="lazy">
+                    <p>10 incredible places to visit in August around the world</p>
+
+                </div>
+
+                <div class="more-box__card">
+                    <img src="./images/more8.jpg" alt="Travel destination photo" loading="lazy">
+                    <p>10 incredible places to visit in August around the world</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="container5">
+
+            <h1 class="container5__title">Dream Your Next Trip</h1>
+            <p class="container5__subtitle">Weekend getaways from Coimbatore</p>
+
+            <div class="container5__cards">
+
+                <div class="place__card">
+                    <img src="./images/top1.jpg" alt="Travel destination photo" loading="lazy">
+                    <h1>Ooty, India</h1>
+                </div>
+
+                <div class="place__card">
+                    <img src="./images/top2.jpg" alt="Travel destination photo" loading="lazy">
+                    <h1>Bengaluru, India</h1>
+                </div>
+
+                <div class="place__card">
+                    <img src="./images/top3.jpg" alt="Travel destination photo" loading="lazy">
+                    <h1>Mahabalipuram, India</h1>
+                </div>
+
+                <div class="place__card">
+                    <img src="./images/top4.jpg" alt="Travel destination photo" loading="lazy">
+                    <h1>Mysuru (Mysore), India</h1>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container4">
+
+            <h1 class="container4__title">Top destinations for your next holiday</h1>
+            <p class="container4__subtitle">Here's where your fellow travellers are headed</p>
+
+            <div class="container4__cards">
+
+                <div class="place__card">
+                    <img src="./images/top1.jpg" alt="Travel destination photo" loading="lazy">
+                    <h1>Ubud, Indonesia</h1>
+                </div>
+
+                <div class="place__card">
+                    <img src="./images/top2.jpg" alt="Travel destination photo" loading="lazy">
+                    <h1>Pattaya, Thailand</h1>
+                </div>
+
+                <div class="place__card">
+                    <img src="./images/top3.jpg" alt="Travel destination photo" loading="lazy">
+                    <h1>Dubai, United Arab Emirates</h1>
+                </div>
+
+                <div class="place__card">
+                    <img src="./images/top4.jpg" alt="Travel destination photo" loading="lazy">
+                    <h1>Singapore, Singapore</h1>
+                </div>
+
+                <div class="place__card">
+                    <img src="./images/top5.jpg" alt="Travel destination photo" loading="lazy">
+                    <h1>Bangkok, Thailand</h1>
+                </div>
+
+                <div class="place__card">
+                    <img src="./images/top6.jpg" alt="Travel destination photo" loading="lazy">
+                    <h1>Udaipur, India</h1>
+                </div>
+
+                <div class="place__card">
+                    <img src="./images/top7.jpg" alt="Travel destination photo" loading="lazy">
+                    <h1>Lonavala, India</h1>
+                </div>
+
+                <div class="place__card">
+                    <img src="./images/top8.jpg" alt="Travel destination photo" loading="lazy">
+                    <h1>Da Nang, Vietnam</h1>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="sponsored">
+
+            <div class="sponsored__img">
+                <img src="./images/sponsored.jpg" alt="Travel destination photo" loading="lazy">
+            </div>
+
+            <div class="sponsored__texts">
+
+                <div class="sponsored-icon">
+                    <img class="trip-icon" src="./images/tripadvisor.png" alt="Travel destination photo" loading="lazy">
+                    <p>Sponsored by Wanderlab</p>
+                </div>
+
+                <h1>Watch the Wanderer</h1>
+                <p>Tripadvisor’s award-winning travel series, now streaming on Amazon Prime Video</p>
+                <button>Learn more</button>
+
+            </div>
+
+        </div>
+
+        <div class="container6">
+            <h2>Home Rentals Near You</h2>
+
+            <div class="house-cards">
+
+                <div class="house__card">
+                    <h3>We think you'd enjoy these homes for a quick trip out of town.</h3>
+                </div>
+
+                <div class="house__card">
+                    <img src="./images/house1.jpg" alt="Travel destination photo" loading="lazy">
+                    <b>
+                        <p>Rentals in Ooty (Udhagamandalam)
+                            43 rentals</p>
+                    </b>
+                </div>
+
+                <div class="house__card">
+                    <img src="./images/house2.jpg" alt="Travel destination photo" loading="lazy">
+                    <b>
+                        <p>Rentals in Coonoor</p>
+                        <p> 19 rentals</p>
+                    </b>
+                </div>
+
+                <div class="house__card">
+                    <img src="./images/house3.jpg" alt="Travel destination photo" loading="lazy">
+                    <b>
+                        <p>Rentals in Yelagiri</p>
+                        <p> 12 rentals</p>
+                    </b>
+                </div>
+
+                <div class="house__card">
+                    <img src="./images/house4.jpg" alt="Travel destination photo" loading="lazy">
+                    <b>
+                        <p>Rentals in Varkala Town</p>
+                        <p> 15 rentals</p>
+                    </b>
+                </div>
+
+                <div class="house__card">
+                    <img src="./images/house5.jpg" alt="Travel destination photo" loading="lazy">
+                    <b>
+                        <p>Rentals in Pondicherry</p>
+                        <p> 14 rentals</p>
+                    </b>
+                </div>
+
+                <div class="house__card">
+                    <img src="./images/house6.jpg" alt="Travel destination photo" loading="lazy">
+                    <b>
+                        <p>Rentals in Kotagiri</p>
+                        <p> 17 rentals</p>
+                    </b>
+                </div>
+            </div>
+        </div>
+
+        <div class="choice">
+            <img class="choice__img" src="./images/travelchoice.png" alt="Travel destination photo" loading="lazy">
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="footer-main1">
+
+                <div class="footer-main__cards">
+
+                    <div class="footer-main__card">
+                        <p><b>About Tripadvisor</b></p>
+                        <p>About Us</p>
+                        <p>Press</p>
+                        <p>Resources and Policies</p>
+                        <p>Careers</p>
+                        <p>Trust & Safety</p>
+                        <p>Contact us</p>
+                        <p>Accessibility Statement</p>
+                    </div>
+
+                    <div class="footer-main__card">
+                        <p><b>Explore</b></p>
+                        <p>Write a review</p>
+                        <p>Add a Place</p>
+                        <p>Join </p>
+                        <p>Travellers' Choice</p>
+                        <p>GreenLeaders</p>
+                        <p>Help Centre</p>
+                        <p>Travel Articles</p>
+                    </div>
+
+                    <div class="footer-main__card">
+                        <p><b>Do Business With Us</b></p>
+                        <p>Owners & DMO/CVB</p>
+                        <p>Business Advantage</p>
+                        <p>Sponsored Placements </p>
+                        <p>Access our Content API</p>
+                        <p>Get The App</p>
+                        <p>iPhone App</p>
+                        <p>Android App</p>
+                    </div>
+
+                    <div class="footer-main2">
+                        <div class="footer-main__card">
+                            <p>Tripadvisor Sites</p>
+                            <p>Book tours and attraction tickets on Viator</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-s2">
+
+                <div class="footer-s2__copy">
+                    <img src="./images/tripadvisor.png" height="30px" width="30px" alt="Travel destination photo" loading="lazy">
+                    <p>&copy;2024 Tripadvisor LLC All rights reserved.</p>
+                </div>
+
+                <div class="footer-s2__section">
+                    <p>Terms of Use </p>
+                    <p> Privacy and Cookies Statement</p>
+
+                    <p>Cookie consent</p>
+                    <p>Site Map</p>
+
+                    <p>How the site works</p>
+                    <p>Contact us</p>
+
+                    <div class="footer-form">
+                        <form class="form-1">
+
+                            <select id="rupees" name="rupees">
+
+                                <option value="INR">INR</option>
+                                <option value="UR">US Dollars</option>
+                                <option value="JK">British Pounds</option>
+                                <option value="PER">Euros</option>
+                            </select>
+
+                        </form>
+
+                        <form class="form-1">
+
+                            <select id="country" name="country">
+                                <option value="India">India</option>
+                                <option value="Russia">US</option>
+                                <option value="Mexico">England</option>
+                            </select>
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer-s3">
+                    <p>This is the version of our website addressed to speakers of English in India. If you are a
+                        resident
+                        of another country or region, please select<br> the appropriate version of Tripadvisor for your
+                        country or region in the drop-down menu. more</p>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
